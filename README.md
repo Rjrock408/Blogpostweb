@@ -10,3 +10,39 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+## Before running the project, ensure you have the following installed:
+
+    Node.js (Latest LTS version recommended)
+
+    npm or yarn (Comes with Node.js)
+
+## Clone the Repository
+
+git clone https://github.com/YOUR_GITHUB_USERNAME/News-Fetching-App.git
+cd News-Fetching-App
+
+## Install Dependencies
+
+npm install
+
+## Set Up Environment Variables
+
+Create a .env file in the root directory and add your API key:
+
+VITE_NEWS_API_KEY=your_api_key_here
+
+## Start the Development Server
+
+npm run dev
+
+## Build for Production
+
+To create a production-ready build, run:
+
+## Get your api key
+
+Get your api key from -> https://newsapi.org
+
+And use it to run the app
